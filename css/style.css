@@ -1,4 +1,18 @@
 /** MIXINS ------------------------------------------*/
+.btn-callout, .btn-info {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.75em 1.5em;
+  border-radius: 0.35em; }
+  .btn-callout:hover, .btn-info:hover {
+    color: #fff;
+    opacity: 0.8; }
+  .btn-callout:active, .btn-info:active {
+    opacity: initial; }
+
 /* BASE ------------------------------------------- */
 * {
   box-sizing: border-box; }
@@ -117,20 +131,6 @@ footer {
   .card .icon,
   .card h1 {
     color: #278da4; }
-
-.btn-callout, .btn-info {
-  color: #fff;
-  display: inline-block;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0.75em 1.5em;
-  border-radius: 0.35em; }
-  .btn-callout:hover, .btn-info:hover {
-    color: #fff;
-    opacity: 0.8; }
-  .btn-callout:active, .btn-info:active {
-    opacity: initial; }
 
 .btn-callout {
   font-size: 1.1em;
