@@ -8,7 +8,7 @@ header {
     bottom: -25px;
   }
   height: 460px;
-  background: linear-gradient($color-bg-light, $color-bg), 
+  background: linear-gradient($color-bg-light, $color-bg),
               url('../img/bg.jpg') no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
@@ -25,7 +25,7 @@ header {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: $break-xs) {
   header {
     height: 340px;
     h1 {
@@ -34,7 +34,7 @@ header {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $break-l) {
   header {
     background-position: 0 0, 0 45%;
   }

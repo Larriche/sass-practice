@@ -6,10 +6,8 @@
 .main-content {
   display: flex;
   flex-wrap: wrap;
-}  
 
-@media (min-width: 768px) {
-  .main-content {
+  @media (min-width: $break-m) {
     @include center;
   }
 }
@@ -23,14 +21,11 @@
 // Intro
 .intro {
   margin: auto;
-  padding: 1em 1em 3em; 
+  padding: 1em 1em 3em;
   p {
-    font-size: 1.2em; 
-  }  
-}
-
-@media (min-width: 992px) {
-  .intro {
+    font-size: 1.2em;
+  }
+  @media (min-width: $break-l) {
     width: 45%;
   }
 }

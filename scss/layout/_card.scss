@@ -15,7 +15,7 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: $break-s) {
   .card {
     flex: 1;
   }
