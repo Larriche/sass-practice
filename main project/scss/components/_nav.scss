@@ -16,7 +16,7 @@
     padding: 0.5em;
     transition: 0.3s;
     &:hover {
-      color: $color-accent;  
+      color: rgba($color-accent, 0.7);
     }
   }
 }

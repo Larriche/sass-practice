@@ -496,15 +496,18 @@ header {
   flex-direction: column;
   padding: 1.5em 1em;
   border: 1px solid #eee;
-  border-radius: 0.25em; }
+  border-radius: 0.25em;
+  margin: 10px; }
   .card h1 {
     color: #278da4;
     margin: 0.35em 0 0;
     line-height: 1.25; }
-
-@media (min-width: 576px) {
-  .card {
-    flex: 1; } }
+  @media (min-width: 576px) {
+    .card {
+      flex: 1 46%; } }
+  @media (min-width: 992px) {
+    .card {
+      flex-basis: 27.33333%; } }
 
 footer {
   padding: 2em 0 0;
@@ -535,7 +538,7 @@ footer {
     padding: 0.5em;
     transition: 0.3s; }
     .main-nav a:hover {
-      color: #eeea72; }
+      color: rgba(238, 234, 114, 0.7); }
 
 .btn-callout, .btn-info {
   color: #fff;
@@ -563,7 +566,7 @@ footer {
 
 .material-icons {
   font-size: 2.35em;
-  color: #278da4; }
+  color: #31b0cd; }
 
 .img-featured {
   width: 165px;
