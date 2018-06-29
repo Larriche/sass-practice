@@ -61,3 +61,13 @@
     }
   }
 }
+
+// Theme colors
+@mixin themes($map) {
+  @each $theme,
+    $color in $themes {
+      &-#{$theme} {
+        color: $color;
+      }
+    }
+}

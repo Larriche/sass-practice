@@ -568,6 +568,24 @@ footer {
   font-size: 2.35em;
   color: #31b0cd; }
 
+.icn-ent {
+  color: #79ccf5; }
+
+.icn-arch {
+  color: #fd6fa6; }
+
+.icn-edu {
+  color: #23bbae; }
+
+.icn-sim {
+  color: #2377bb; }
+
+.icn-soc {
+  color: #ada3f0; }
+
+.icn-games {
+  color: #3cb144; }
+
 .img-featured {
   width: 165px;
   height: 165px;
