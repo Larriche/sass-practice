@@ -24,7 +24,9 @@ $max-width: 1000px;
 $gutter: 10px;
 
 // Breakpoints
-$break-xs: 575px;
-$break-s: 576px;
-$break-m: 768px;
-$break-l: 992px;
+$breakpoints: (
+    'xs': 575px,
+    'sm': 576px,
+    'med': 768px,
+    'lg': 992px,
+);

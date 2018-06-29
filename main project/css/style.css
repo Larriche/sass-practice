@@ -570,6 +570,7 @@ footer {
 
 .img-featured {
   width: 165px;
+  height: 165px;
   border: 4px solid #fff;
   border-radius: 50%;
   margin-top: 75px;

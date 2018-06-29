@@ -3,14 +3,12 @@
 // ======================================
 
 .img-featured {
-  width: 165px;
-  border: 4px solid $white;
-  border-radius: 50%;
+  @include roundy($dim: 165px, $brdr: 4px solid $white);
   margin-top: 75px;
   position: relative;
   z-index: 100;
 
-  @media (max-width: $break-xs) {
+  @include mq(xs) {
       display: none;
   }
 }
